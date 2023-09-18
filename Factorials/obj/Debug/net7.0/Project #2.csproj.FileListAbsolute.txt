@@ -1,0 +1,14 @@
+C:\c#\Project #2\bin\Debug\net7.0\Project #2.exe
+C:\c#\Project #2\bin\Debug\net7.0\Project #2.deps.json
+C:\c#\Project #2\bin\Debug\net7.0\Project #2.runtimeconfig.json
+C:\c#\Project #2\bin\Debug\net7.0\Project #2.dll
+C:\c#\Project #2\bin\Debug\net7.0\Project #2.pdb
+C:\c#\Project #2\obj\Debug\net7.0\Project #2.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#\Project #2\obj\Debug\net7.0\Project #2.AssemblyInfoInputs.cache
+C:\c#\Project #2\obj\Debug\net7.0\Project #2.AssemblyInfo.cs
+C:\c#\Project #2\obj\Debug\net7.0\Project #2.csproj.CoreCompileInputs.cache
+C:\c#\Project #2\obj\Debug\net7.0\Project #2.dll
+C:\c#\Project #2\obj\Debug\net7.0\refint\Project #2.dll
+C:\c#\Project #2\obj\Debug\net7.0\Project #2.pdb
+C:\c#\Project #2\obj\Debug\net7.0\Project #2.genruntimeconfig.cache
+C:\c#\Project #2\obj\Debug\net7.0\ref\Project #2.dll
