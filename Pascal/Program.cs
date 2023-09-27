@@ -24,9 +24,16 @@ namespace Program{
         }
 
         static void Main(string[] args){
-            List<int> row = getRow(20);
-            foreach (int rowVal in row){
-                Console.WriteLine(rowVal);
+            int rowNum;
+            do{
+                Console.WriteLine("How many rows do you want to calculate?");
+            } while (!int.TryParse(Console.ReadLine(), out rowNum) || rowNum < 0);
+            for (int i = 0; i < rowNum; i++) {
+                List<int> row = getRow(i);
+                foreach (int rowVal in row){
+                    Console.Write($"{rowVal} ");
+                }
+                Console.WriteLine("");
             }
             Console.ReadLine();
         }
