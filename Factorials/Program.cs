@@ -5,6 +5,7 @@ namespace Program{
 
     class Program{
 
+        // limit of 5045
         static BigInteger getFactorial(BigInteger num){
             if (num != 0){
                 return num * getFactorial(num - 1);

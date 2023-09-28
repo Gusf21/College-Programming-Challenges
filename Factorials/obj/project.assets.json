@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\c#\\Project #2\\Project #2.csproj",
+      "projectUniqueName": "C:\\c#\\Factorials\\Project #2.csproj",
       "projectName": "Project #2",
-      "projectPath": "C:\\c#\\Project #2\\Project #2.csproj",
+      "projectPath": "C:\\c#\\Factorials\\Project #2.csproj",
       "packagesPath": "C:\\Users\\fergu\\.nuget\\packages\\",
-      "outputPath": "C:\\c#\\Project #2\\obj\\",
+      "outputPath": "C:\\c#\\Factorials\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fergu\\AppData\\Roaming\\NuGet\\NuGet.Config"

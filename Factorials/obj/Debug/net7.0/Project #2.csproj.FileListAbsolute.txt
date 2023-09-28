@@ -12,3 +12,17 @@ C:\c#\Project #2\obj\Debug\net7.0\refint\Project #2.dll
 C:\c#\Project #2\obj\Debug\net7.0\Project #2.pdb
 C:\c#\Project #2\obj\Debug\net7.0\Project #2.genruntimeconfig.cache
 C:\c#\Project #2\obj\Debug\net7.0\ref\Project #2.dll
+C:\c#\Factorials\bin\Debug\net7.0\Project #2.exe
+C:\c#\Factorials\bin\Debug\net7.0\Project #2.deps.json
+C:\c#\Factorials\bin\Debug\net7.0\Project #2.runtimeconfig.json
+C:\c#\Factorials\bin\Debug\net7.0\Project #2.dll
+C:\c#\Factorials\bin\Debug\net7.0\Project #2.pdb
+C:\c#\Factorials\obj\Debug\net7.0\Project #2.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#\Factorials\obj\Debug\net7.0\Project #2.AssemblyInfoInputs.cache
+C:\c#\Factorials\obj\Debug\net7.0\Project #2.AssemblyInfo.cs
+C:\c#\Factorials\obj\Debug\net7.0\Project #2.csproj.CoreCompileInputs.cache
+C:\c#\Factorials\obj\Debug\net7.0\Project #2.dll
+C:\c#\Factorials\obj\Debug\net7.0\refint\Project #2.dll
+C:\c#\Factorials\obj\Debug\net7.0\Project #2.pdb
+C:\c#\Factorials\obj\Debug\net7.0\Project #2.genruntimeconfig.cache
+C:\c#\Factorials\obj\Debug\net7.0\ref\Project #2.dll
