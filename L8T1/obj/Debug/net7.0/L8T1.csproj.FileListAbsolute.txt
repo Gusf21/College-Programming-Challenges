@@ -1,0 +1,14 @@
+C:\c#\L8T1\obj\Debug\net7.0\L8T1.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#\L8T1\obj\Debug\net7.0\L8T1.AssemblyInfoInputs.cache
+C:\c#\L8T1\obj\Debug\net7.0\L8T1.AssemblyInfo.cs
+C:\c#\L8T1\obj\Debug\net7.0\L8T1.csproj.CoreCompileInputs.cache
+C:\c#\L8T1\bin\Debug\net7.0\L8T1.exe
+C:\c#\L8T1\bin\Debug\net7.0\L8T1.deps.json
+C:\c#\L8T1\bin\Debug\net7.0\L8T1.runtimeconfig.json
+C:\c#\L8T1\bin\Debug\net7.0\L8T1.dll
+C:\c#\L8T1\bin\Debug\net7.0\L8T1.pdb
+C:\c#\L8T1\obj\Debug\net7.0\L8T1.dll
+C:\c#\L8T1\obj\Debug\net7.0\refint\L8T1.dll
+C:\c#\L8T1\obj\Debug\net7.0\L8T1.pdb
+C:\c#\L8T1\obj\Debug\net7.0\L8T1.genruntimeconfig.cache
+C:\c#\L8T1\obj\Debug\net7.0\ref\L8T1.dll

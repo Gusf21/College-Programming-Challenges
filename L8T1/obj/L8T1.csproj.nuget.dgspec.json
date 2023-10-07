@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\c#\\fibonnaci\\c#.csproj": {}
+    "C:\\c#\\L8T1\\L8T1.csproj": {}
   },
   "projects": {
-    "C:\\c#\\fibonnaci\\c#.csproj": {
+    "C:\\c#\\L8T1\\L8T1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\c#\\fibonnaci\\c#.csproj",
-        "projectName": "c#",
-        "projectPath": "C:\\c#\\fibonnaci\\c#.csproj",
+        "projectUniqueName": "C:\\c#\\L8T1\\L8T1.csproj",
+        "projectName": "L8T1",
+        "projectPath": "C:\\c#\\L8T1\\L8T1.csproj",
         "packagesPath": "C:\\Users\\fergu\\.nuget\\packages\\",
-        "outputPath": "C:\\c#\\fibonnaci\\obj\\",
+        "outputPath": "C:\\c#\\L8T1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fergu\\AppData\\Roaming\\NuGet\\NuGet.Config"
