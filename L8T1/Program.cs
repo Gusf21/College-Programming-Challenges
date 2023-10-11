@@ -37,7 +37,7 @@ namespace Noughts_Crosses
                     xSuccess = int.TryParse(stringCoords[0], out x);
                     ySuccess = int.TryParse(stringCoords[1], out y);
                 } catch (ArgumentOutOfRangeException e){
-                Console.WriteLine("Falied Conversion");
+                    Console.WriteLine("Falied Conversion");
                     ySuccess = false;
                     xSuccess = false;
                     x = 0;
