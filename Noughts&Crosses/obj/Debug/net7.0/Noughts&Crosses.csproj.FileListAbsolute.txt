@@ -1,0 +1,14 @@
+C:\c#\Noughts&Crosses\bin\Debug\net7.0\Noughts&Crosses.exe
+C:\c#\Noughts&Crosses\bin\Debug\net7.0\Noughts&Crosses.deps.json
+C:\c#\Noughts&Crosses\bin\Debug\net7.0\Noughts&Crosses.runtimeconfig.json
+C:\c#\Noughts&Crosses\bin\Debug\net7.0\Noughts&Crosses.dll
+C:\c#\Noughts&Crosses\bin\Debug\net7.0\Noughts&Crosses.pdb
+C:\c#\Noughts&Crosses\obj\Debug\net7.0\Noughts&Crosses.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#\Noughts&Crosses\obj\Debug\net7.0\Noughts&Crosses.AssemblyInfoInputs.cache
+C:\c#\Noughts&Crosses\obj\Debug\net7.0\Noughts&Crosses.AssemblyInfo.cs
+C:\c#\Noughts&Crosses\obj\Debug\net7.0\Noughts&Crosses.csproj.CoreCompileInputs.cache
+C:\c#\Noughts&Crosses\obj\Debug\net7.0\Noughts&Crosses.dll
+C:\c#\Noughts&Crosses\obj\Debug\net7.0\refint\Noughts&Crosses.dll
+C:\c#\Noughts&Crosses\obj\Debug\net7.0\Noughts&Crosses.pdb
+C:\c#\Noughts&Crosses\obj\Debug\net7.0\Noughts&Crosses.genruntimeconfig.cache
+C:\c#\Noughts&Crosses\obj\Debug\net7.0\ref\Noughts&Crosses.dll

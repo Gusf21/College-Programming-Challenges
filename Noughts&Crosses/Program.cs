@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
 
-namespace L8T1
+namespace Noughts_Crosses
 {
     internal class Program
     {
