@@ -30,8 +30,7 @@ namespace Noughts_Crosses
                 Console.WriteLine($"{player}, input your go in the form x, y");
                 stringCoords = Console.ReadLine().Split(',').ToList();
 
-                for (int i = 0; i < stringCoords.Count; i++)
-                {
+                for (int i = 0; i < stringCoords.Count; i++) {
                     stringCoords[i] = stringCoords[i].Trim();
                 }
                 try {
@@ -55,17 +54,14 @@ namespace Noughts_Crosses
             return new int[] {x-1, y-1};
         }
 
-        static bool printBoard(string[,] board)
-        {
+        static bool printBoard(string[,] board) {
             bool returnVal = false;
             string player = "hi";
             int emptys = 0;
             Console.WriteLine("   1| 2| 3|");
-            for (int i = 0;i < board.GetLength(0); i++)
-            {
+            for (int i = 0;i < board.GetLength(0); i++) {
                 Console.Write($"{i+1}| ");
-                for (int j = 0; j < board.GetLength(1); j++)
-                {
+                for (int j = 0; j < board.GetLength(1); j++) {
                     Console.Write(board[i,j] + "| ");
                     emptys += board[i,j] == " " ? 1 : 0;
                 }
@@ -92,23 +88,21 @@ namespace Noughts_Crosses
             return returnVal;
         }
 
-        static void Main(string[] args)
-        {
+        static void Main(string[] args) {
             string[,] board = { { " ", " ", " " }, { " ", " ", " " }, { " ", " ", " " } };
             bool won = false;
             int[] coords;
-            while (true)
-            {
+            while (true) {
                 coords = go("Player 1", board);
                 board[coords[1], coords[0]] = board[coords[1], coords[0]] != "o" ? "x": "o";
                 won = printBoard(board);
-                if (won){
+                if (won) {
                     Environment.Exit(0);
                 }
                 coords = go("Player 2", board);
                 board[coords[1], coords[0]] = board[coords[1], coords[0]] != "x" ? "o" : "x";
                 won = printBoard(board);
-                if (won){
+                if (won) {
                     Environment.Exit(0);
                 }
             }
