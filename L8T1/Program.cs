@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace Noughts_Crosses
 {
@@ -89,22 +90,33 @@ namespace Noughts_Crosses
         }
 
         static void Main(string[] args) {
-            string[,] board = { { " ", " ", " " }, { " ", " ", " " }, { " ", " ", " " } };
-            bool won = false;
-            int[] coords;
-            while (true) {
-                coords = go("Player 1", board);
-                board[coords[1], coords[0]] = board[coords[1], coords[0]] != "o" ? "x": "o";
-                won = printBoard(board);
-                if (won) {
-                    Environment.Exit(0);
+            var textinfo = new CultureInfo("en-US", false).TextInfo;
+            bool playing = true;
+            while (playing) {
+                string[,] board = { { " ", " ", " " }, { " ", " ", " " }, { " ", " ", " " } };
+                bool won = false;
+                int[] coords;
+                while (!won) {
+                    coords = go("Player 1", board);
+                    board[coords[1], coords[0]] = board[coords[1], coords[0]] != "o" ? "x": "o";
+                    won = printBoard(board);
+                    if (!won) {
+                        coords = go("Player 2", board);
+                        board[coords[1], coords[0]] = board[coords[1], coords[0]] != "x" ? "o" : "x";
+                        won = printBoard(board);
+                    }
                 }
-                coords = go("Player 2", board);
-                board[coords[1], coords[0]] = board[coords[1], coords[0]] != "x" ? "o" : "x";
-                won = printBoard(board);
-                if (won) {
-                    Environment.Exit(0);
-                }
+                string answer;
+                bool firstTry = true;
+                do {
+                    if (!firstTry) {
+                        Console.WriteLine("Invalid Input!");
+                    }
+                    firstTry = false;
+                    Console.WriteLine("Do you want to play again (yes or no)");
+                    answer = textinfo.ToTitleCase(Console.ReadLine().ToLower());
+                } while (answer != "Yes" && answer != "No");
+                playing = answer == "Yes" ? true : false; 
             }
         }
     }
